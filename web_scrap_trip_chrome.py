@@ -4,15 +4,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-import re
-import io
-import requests
-import bs4
-import urllib.request
-import urllib.parse
 import pandas as pd
 import time
-from _datetime import datetime
 
 driver = None
 
